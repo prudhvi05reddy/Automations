@@ -1,0 +1,46 @@
+{
+    "browser": "edge",
+    "vscode_command": "code",
+    "project_folder": "C:\\Users\\billa\\.gemini\\antigravity\\scratch\\StartMyDay",
+    "enable_daily_notes": true,
+    "urls": {
+        "leetcode": "https://leetcode.com",
+        "github": "https://github.com",
+        "chatgpt": "https://chatgpt.com",
+        "gmail": "https://mail.google.com",
+        "outlook": "https://outlook.live.com",
+        "whatsapp": "https://web.whatsapp.com"
+    },
+    "profiles": {
+        "coding": {
+            "description": "Coding Workspace",
+            "open_vscode": true,
+            "open_notes": false,
+            "urls": [
+                "https://leetcode.com",
+                "https://github.com",
+                "https://chatgpt.com"
+            ]
+        },
+        "study": {
+            "description": "Study Workspace",
+            "open_vscode": true,
+            "open_notes": true,
+            "urls": [
+                "https://chatgpt.com"
+            ]
+        },
+        "placement": {
+            "description": "Placement & Career Workspace",
+            "open_vscode": true,
+            "open_notes": true,
+            "urls": [
+                "https://leetcode.com",
+                "https://github.com",
+                "https://mail.google.com",
+                "https://outlook.live.com",
+                "https://www.linkedin.com"
+            ]
+        }
+    }
+}

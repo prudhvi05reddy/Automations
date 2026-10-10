@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "startmyday"
+version = "1.0.0"
+description = "Cross-Platform Command-Driven Personal Workspace Automation Tool"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+startmyday = "startmyday.cli:main"
+coding = "startmyday.cli:main"
+study = "startmyday.cli:main"
+placement = "startmyday.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["startmyday*"]

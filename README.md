@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚡ Smart System Automation
 
 <p align="center">
@@ -1525,3 +1526,39 @@ See `LICENSE` for details.
 **Smart System Automation**
 
 </p>
+
+---
+
+# 🚀 StartMyDay Workspace Automation Tool
+
+A cross-platform, command-driven personal workspace automation tool included in this repository.
+
+Start your complete daily work and study environment with one simple command:
+
+```bash
+startmyday
+```
+
+## Features
+
+- **One-Command Launch**: Opens your browser tabs (LeetCode, GitHub, ChatGPT, Gmail, Outlook, WhatsApp Web) and VS Code automatically.
+- **Daily Notes System**: Automatically creates and opens `daily_notes/YYYY-MM-DD.md` with a structured goal-tracking template.
+- **Profiles**:
+  - `startmyday` — Full daily workspace
+  - `startmyday coding` — Coding workspace (VS Code, GitHub, LeetCode, ChatGPT)
+  - `startmyday study` — Study workspace (VS Code, notes, ChatGPT)
+  - `startmyday placement` — Placement & career workspace (LinkedIn, GitHub, LeetCode, Gmail, Outlook)
+- **JSON Configuration**: Customize URLs, browser preferences, and folders in `config.json` without modifying code.
+- **Cross-Platform**: Designed with OS adapters for Windows, macOS, and Linux.
+- **Logging**: Keeps track of daily launches and errors in `logs/startmyday.log`.
+
+## Installation & Setup
+
+Install in editable mode:
+
+```bash
+pip install -e .
+```
+
+Now you can type `startmyday` from any CMD or PowerShell terminal!
+
