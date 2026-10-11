@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ⚡ Smart System Automation
 
 <p align="center">
